@@ -29,7 +29,7 @@ end
 //*--------------------------------------
 
 always @(*) begin
-    case (variable)
+    case (Mux_Sel)
         2'b00: begin
             mux_out = 1'b0;
         end

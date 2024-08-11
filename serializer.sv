@@ -14,8 +14,9 @@ always @(posedge CLK or negedge RST) begin
     if (!RST) begin
         SER_Data <= 1'b0;
         SER_Done <= 1'b0;
-        i <= 0
-    end else if (SER_EN) begin
+        i <= 0;
+    end 
+    else if (SER_EN) begin
         if (i < data_width -1) begin
             SER_Data <= P_Data[i];
             i = i + 1;
