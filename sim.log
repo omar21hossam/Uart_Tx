@@ -21,3 +21,4 @@
 # ** Note: $stop    : UART_TX_TB.sv(44)
 #    Time: 2040 ns  Iteration: 0  Instance: /UART_TX_TB
 # Break at UART_TX_TB.sv line 44
+# Stopped at UART_TX_TB.sv line 44
